@@ -1,0 +1,92 @@
+body{
+    font-family: "Lexend Deca", "Inter", Arial, Helvetica, sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+}
+
+#card{
+    background-color: hsl(244, 38%, 16%);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+    margin: 10em;
+    border-radius: 1% 1% 1% 1%;
+    width: 1100px;
+
+    
+}
+
+.left{
+display: flex;
+flex-direction: column;
+width: 50%;
+
+}
+
+.right{
+    height: 446px;
+    width: 50%;
+    background-image: linear-gradient(rgba(172, 96, 222, 0.5), rgba(172, 96, 222, 0.5)), url(../media/images/image-header-desktop.jpg);
+    border-radius: 1%;
+}
+
+.h1__title, .h2__title, .p, .p__capital, h3{
+    color: white;
+
+}
+
+.h1__title{
+    font-size: 2em;
+    text-align: justify;
+    margin: 2em 3em 1em 1.3em;
+    font-weight: bold;
+}
+
+.h2__title{
+    font-size : 15px;
+    text-align: justify;
+    margin: 0em 5em 10em 2.8em;
+    color: lightgray;
+}
+
+.statistic{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    
+}
+
+.p__capital{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgb(177, 177, 177);
+}
+
+.purple{
+    color:hsl(268, 64%, 61%)
+}
+
+
+.img{
+    display: block;
+
+
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
